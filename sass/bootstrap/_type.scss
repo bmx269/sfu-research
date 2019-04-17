@@ -16,16 +16,20 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 150px;
+  font-size: 80px;
   line-height: .85em;
   font-weight: 700;
   font-family: $font-family-sans-serif-alt;
 
+  @include media-breakpoint-up(sm) {
+    font-size: 120px;
+  }
+
   @include media-breakpoint-up(md) {
-    font-size: 190px;
+    font-size: 180px;
   }
   @include media-breakpoint-up(lg) {
-    font-size: 230px;
+    font-size: 210px;
   }
   @include media-breakpoint-up(xl) {
     font-size: 260px;
@@ -33,11 +37,15 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 34px;
+  font-size: 30px;
   line-height: 1;
   font-weight: 700;
   margin-bottom: 1.3rem;
   letter-spacing: -.05em;
+
+  @include media-breakpoint-up(md) {
+    font-size: 37px;
+  }
 
   @include media-breakpoint-up(md) {
     font-size: 44px;
