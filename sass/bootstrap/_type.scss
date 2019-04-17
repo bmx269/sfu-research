@@ -37,6 +37,7 @@ h2, .h2 {
   line-height: 1;
   font-weight: 700;
   margin-bottom: 1.3rem;
+  letter-spacing: -.05em;
 
   @include media-breakpoint-up(md) {
     font-size: 44px;
