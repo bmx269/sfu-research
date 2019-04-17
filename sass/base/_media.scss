@@ -1,0 +1,62 @@
+// Media styles
+figure {
+  margin: 0;
+}
+
+img,
+picture {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+
+.video-responsive {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+
+  iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+}
+
+
+video {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  max-width: 1440px;
+}
+
+
+.video-background video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  object-fit: cover;
+  height: 100% !important;
+  width: 100% !important;
+  max-width: 100%;
+}
+
+
+img {
+  &.align-left {
+    text-align: left;
+    margin: 0 10px 10px 0;
+  }
+
+  &.align-right {
+    text-align: right;
+    margin: 0 0 10px 10px;
+  }
+}

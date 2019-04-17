@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Oswald:700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+*,
+*::before,
+*::after {
+  box-sizing: border-box; // 1
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+}
+
+html {
+  font-family: sans-serif; // 2
+  font-size: 18px;
+  line-height: 1.15; // 3
+  -webkit-text-size-adjust: 100%; // 4
+  -ms-text-size-adjust: 100%; // 4
+  -ms-overflow-style: scrollbar; // 5
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); // 6
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+@import "base/animate";
+@import "bootstrap/bootstrap.scss";
+@import "base/layout";
+@import "base/lists";
+@import "base/media";
+@import "base/typography";
+@import "base/navs";
+@import "base/elements";
+
+.wow { visibility: hidden; }
+
+// @include media-breakpoint-up(sm) { ... }
+// @include media-breakpoint-up(md) { ... }
+// @include media-breakpoint-up(lg) { ... }
+// @include media-breakpoint-up(xl) { ... }

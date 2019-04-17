@@ -1,0 +1,15 @@
+img {
+  @extend .img-fluid;
+}
+
+#step-outside {
+  background-image: url("../images/banner.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+#west-coast-spirit {
+  background-image: url("../images/westcoast.jpg");
+  background-position: center center;
+  background-size: cover;
+}

@@ -1,0 +1,17 @@
+.stat-number {
+  font-family: $font-family-sans-serif-alt;
+  font-size: 70px;
+  line-height: 1;
+  letter-spacing: -.05em;
+  font-weight: 700;
+
+  @include media-breakpoint-up(md) {
+    font-size: 80px;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 90px;
+  }
+  @include media-breakpoint-up(xl) {
+    font-size: 100px;
+  }
+}
