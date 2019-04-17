@@ -1,0 +1,46 @@
+nav#strengths-nav {
+  margin-bottom: 1rem;
+  ul {
+    li {
+      display: inline-block;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: $gray-500;
+      padding-right: .75rem;
+      padding-bottom: .75rem;
+      a {
+        display: block;
+        padding: 0;
+        color: $gray-500;
+        text-decoration: none;
+        position: relative;
+
+        &:after {
+          content: '';
+          height: 2px;
+          display: block;
+          background-color: transparent;
+          margin: 0 10%;
+        }
+
+
+        &:hover,
+        &:focus {
+          text-decoration: none;
+
+          &:after {
+            background-color: $red;
+          }
+
+        }
+        &.active {
+          color: $red;
+
+          &:after {
+            background-color: $red;
+          }
+        }
+      }
+    }
+  }
+}

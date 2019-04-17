@@ -4075,7 +4075,7 @@ input[type="button"].btn-block {
   pointer-events: none;
   content: "";
   background-color: #fff;
-  border: #adb5bd solid 2px;
+  border: #959193 solid 2px;
 }
 
 .custom-control-label::after {
@@ -4149,7 +4149,7 @@ input[type="button"].btn-block {
   left: calc(-2.25rem + 4px);
   width: calc(1rem - 8px);
   height: calc(1rem - 8px);
-  background-color: #adb5bd;
+  background-color: #959193;
   border-radius: 0.5rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -4484,7 +4484,7 @@ input[type="button"].btn-block {
 }
 
 .custom-range:disabled::-webkit-slider-thumb {
-  background-color: #adb5bd;
+  background-color: #959193;
 }
 
 .custom-range:disabled::-webkit-slider-runnable-track {
@@ -4492,7 +4492,7 @@ input[type="button"].btn-block {
 }
 
 .custom-range:disabled::-moz-range-thumb {
-  background-color: #adb5bd;
+  background-color: #959193;
 }
 
 .custom-range:disabled::-moz-range-track {
@@ -4500,7 +4500,7 @@ input[type="button"].btn-block {
 }
 
 .custom-range:disabled::-ms-thumb {
-  background-color: #adb5bd;
+  background-color: #959193;
 }
 
 .custom-control-label::before,
@@ -10878,7 +10878,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   pre,
   blockquote {
-    border: 2px solid #adb5bd;
+    border: 2px solid #959193;
     page-break-inside: avoid;
   }
   thead {
